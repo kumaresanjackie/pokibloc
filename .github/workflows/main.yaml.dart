@@ -12,7 +12,7 @@ name: "Build & Release"
 jobs:
   build:
     name: Build & Release
-    runs-on: windows-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-java@v3
@@ -45,5 +45,3 @@ jobs:
 
 
 
-# push to master, main, develop
-# pull request on main master
